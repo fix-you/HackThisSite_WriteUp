@@ -2,8 +2,7 @@ Programming missions
 
 Level 1
 
-截图：
-![](hts-prog1.jpg)
+
 
 ![](sorted.jpg)
 
@@ -71,3 +70,7 @@ if __name__ == "__main__":
 
 
 ```
+
+;)
+![](hts-prog1.jpg)
+
