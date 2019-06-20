@@ -1,10 +1,14 @@
-#coding=utf-8
-# author: UncleHenry
 
-#Hackthissite Programming missions
-#	-Level 2	
-#	-Analyze the picture and find the ascii code
+# Hackthissite Programming missions
+## author: UncleHenry
+Level 2	
+Analyze the picture and find the ascii code
+- 图片尺寸
+![](img_size.png)
+- 题目图片（题中的图每次都是随机的）
+![](img.png)
 ```
+#coding=utf-8
 # This level is about image analyzing.
 # The pixels in the above image are numbered 0..99 for the first row, 100..199 for the second row etc. 
 #White pixels represent ascii codes. 
@@ -16,6 +20,7 @@
 #题意解读：
 #步骤：	图片-->Morse莫斯码-->答案
 #图片解码题。图片尺寸是100列*30行的，第1行是0-99，第2行是100-199
+
 #得到Morse码：用偏移值求，例如当前位置是65列，上一个位置是0列，那么ascii值就是65（对应字符'A'）；以此类推
 # 算法核心
 #ascii_value = chr((current_P-last_P)
