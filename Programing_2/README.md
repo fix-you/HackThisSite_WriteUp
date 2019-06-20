@@ -4,7 +4,7 @@
 #Hackthissite Programming missions
 #	-Level 2	
 #	-Analyze the picture and find the ascii code
-
+```
 # This level is about image analyzing.
 # The pixels in the above image are numbered 0..99 for the first row, 100..199 for the second row etc. 
 #White pixels represent ascii codes. 
@@ -70,7 +70,7 @@ print(''.join(c))
 f.write('\n'+''.join(c))	#写到txt文件中去
 f.close()
 
-
+```
 
 
 
