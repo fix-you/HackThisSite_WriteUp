@@ -11,11 +11,7 @@ TODO
 
     
 
-```
 
-
-1. 
-```
 
 1. ### XCTF 4th-CyberEarth
  
